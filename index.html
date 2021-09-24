@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./bootstrap icon.png" type="image/png">
+    <title>Bootstrap navbar</title>
+    <script src="https://kit.fontawesome.com/ff706d7b10.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            box-sizing: border-box;
+        }
+
+        .topNav {
+            background-color: #7952b3;
+            overflow: hidden;
+            font-size: 16px;
+        }
+
+
+
+        .topNav a {
+            text-decoration: none;
+            ;
+            color: #FFFFFFD9;
+            padding: 8px;
+            /* font-weight: 100; */
+            text-align: center;
+        }
+
+        .topNav a:hover {
+            color: #FFF;
+            ;
+        }
+
+        .topNav a.active {
+            font-weight: 600;
+        }
+
+
+        .topNav .fa-bootstrap {
+            font-size: 35px;
+            padding: 8px;
+            margin: 8px 0 8px 0;
+        }
+
+        .topNav .topNav-left {
+            float: left;
+        }
+
+
+
+        .topNav .topNav-right {
+            float: right;
+            padding: 8px;
+            padding-top: 20px;
+        }
+
+        .topNav button {
+            font-weight: bold;
+            border: 1px solid #ffe484;
+            /* border-color: #ffe484; */
+            padding: 10px 30px;
+            background-color: #7952b3;
+            outline-style: none;
+            border-radius: 4px;
+
+        }
+
+        .topNav button {
+            color: #ffe484;
+
+        }
+
+        .topNav button:hover {
+
+            background-color: #ffe484;
+            color: #2a2730;
+        }
+
+        .topNav a button:hover {
+            color: #393541;
+            transition: 0.3s;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topNav" id="mytopNav">
+        <div class="topNav-left">
+
+            <a href="#"><i class="fab fa-bootstrap"></i></a>
+            <a href="#" class="active menu">Home</a>
+            <a href="#" class="menu">Docs</a>
+            <a href="#" class="menu">Examples</a>
+            <a href="#" class="menu">Icons</a>
+            <a href="#" class="menu">Themes</a>
+            <a href="#" class="menu">Blog</a>
+        </div>
+
+        <div class="topNav-right">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-slack"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"> <button>Download</button></a>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
